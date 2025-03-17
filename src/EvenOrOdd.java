@@ -5,5 +5,6 @@ public class EvenOrOdd {
     }
     public static void main(String[] args) {
         System.out.println(evenOrOdd(5));
+        System.out.println(evenOrOdd(4));
     }
 }
