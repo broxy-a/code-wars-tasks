@@ -11,7 +11,7 @@ public class AddLength {
             return arrayWord;
       }
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(addLength("Manus Gwin")));
+        System.out.println(Arrays.toString(addLength("Manus Gwin Artorias Sif")));
 
     }
 }
