@@ -4,5 +4,7 @@ public class KeepHydrated {
     }
 public static void main(String[] args) {
         System.out.println(litres(10));
+        System.out.println(litres(3));
+        System.out.println(litres(6.7));
     }
 }
