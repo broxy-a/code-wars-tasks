@@ -12,7 +12,7 @@ public class DrinkAbout {
         return "";
     }
     public static void main(String[] args) {
-        System.out.println(peopleWithAgeDrink(13));  
+    System.out.println(peopleWithAgeDrink(13));  
     System.out.println(peopleWithAgeDrink(17));  
     System.out.println(peopleWithAgeDrink(19));  
     System.out.println(peopleWithAgeDrink(21));  
