@@ -1,18 +1,13 @@
-## Getting Started
+# 📝 addLength
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Этот код вычисляет длину строки в массиве и передает её в формате:
 
-## Folder Structure
+```java
+addLength("Manus Gwin") ➝ ["Manus 5", "Gwin 4"]
+addLength("Hello world") ➝ ["Hello 5", "world 5"]
+🔹 Основные моменты:
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    📌 Разделение строки на слова с помощью split(" ").
+    📌 Создание нового массива для хранения слов и их длины.
+    📌 Перебор массива слов циклом for, вычисление длины слова с word + " " + word.length().
+    📌 Сохранение результата в новый массив и его возвращение.
