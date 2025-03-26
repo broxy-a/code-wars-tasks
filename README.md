@@ -199,7 +199,7 @@ betterThanAverage(new int[]{2, 3}, 1) → false
 nickname("Robert")  → "Rob"  
 nickname("Samanta")  → "Sam"  
 nickname("Jeannie")  → "Jean"    
-nickname("Al")       → "Error: Name too short"  
+nickname("Al")    → "Error: Name too short"  
 
 🔹 Основные моменты:
     📌 В первом решении используется if-else, это делает код более длинным, но в тоже время более читаемым.
