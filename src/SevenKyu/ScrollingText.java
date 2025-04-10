@@ -14,7 +14,8 @@ public class ScrollingText {
        return result.toArray(new String[0]);
     }
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(scrollingText("pivo")));
-
+        System.out.println(Arrays.toString(scrollingText("codewars")));
+        System.out.println(Arrays.toString(scrollingText("artorias")));
+        System.out.println(Arrays.toString(scrollingText("bonfire")));
     }
 }
