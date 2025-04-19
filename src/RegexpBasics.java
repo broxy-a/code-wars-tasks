@@ -1,5 +1,6 @@
 public class RegexpBasics {
     public static boolean isDigit(String s) {
+
         return s.length() != 1 ? false : s.matches("\\d") ? true : false;
     }
 
