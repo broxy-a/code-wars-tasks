@@ -1,7 +1,7 @@
 package SevenKyu;
 import java.util.*;
 
-public class PartialWorldSearching {
+public class PartialWordSearching {
     static String[] findWord(String x, String[] y){
         /* В этой задаче надо найти все строки в массиве, в которых содержится строка запрос. Например:
         * x = "me";
